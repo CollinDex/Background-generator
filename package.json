@@ -1,19 +1,22 @@
 {
   "name": "background-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Background Generator",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "browserify script.js > bundle.js &&live-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CollinDex/Background-generator.git"
   },
-  "author": "",
+  "author": "Chibuikem Obetta",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CollinDex/Background-generator/issues"
   },
-  "homepage": "https://github.com/CollinDex/Background-generator#readme"
+  "homepage": "https://github.com/CollinDex/Background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
